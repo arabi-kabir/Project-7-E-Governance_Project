@@ -1,0 +1,75 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .myNav{
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .myNav{
+        margin-bottom: 30px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .myNav{
+        margin-bottom: 30px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #login-form{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .navbar-nav{
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+/* Global */
+#navbarNav ul li{
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: krub;
+    src: url('../font/Krub-Light.ttf');
+}
+
+
+
+.list-group-item{
+    padding: 0.4rem 1.25rem !important;
+}
+.list-group-item i{
+  width: 53px;
+    /* padding-right: 15px; */
+}
+h1,h2,h3,h4,h5,h6,p,a,th,td,label,button {
+    font-family: 'Krub' !important;
+}
+.toast{
+    opacity: 1 !important;
+}
+.text-color a{
+    color: #2ecc71;
+}
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  /* border-color: #EEEEEE -moz-use-text-color #FFFFFF; */
+  border-style: solid grey;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
